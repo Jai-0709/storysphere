@@ -1,8 +1,7 @@
 -- StorySphere Database Schema
 
 -- Create database
-CREATE DATABASE IF NOT EXISTS storysphere;
-USE storysphere;
+USE railway;
 
 -- Users table
 CREATE TABLE users (
@@ -114,3 +113,4 @@ CREATE TABLE reading_progress (
     INDEX idx_user (user_id),
     INDEX idx_book (book_id)
 );
+s
